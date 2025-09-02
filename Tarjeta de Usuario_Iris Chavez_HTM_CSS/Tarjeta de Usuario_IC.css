@@ -1,0 +1,50 @@
+main{
+    width: 900px;
+    height: 700px;
+    display:flex ;
+    flex-direction: column; 
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow:0rem 0.2rem 0.2rem #8888 ;
+}
+#d1{
+    background-color: #0759a5;
+    position: relative;  
+    flex: 1; 
+
+}
+#d2{
+    background-color: #ffffff;
+    flex: 3;
+    padding-top: 8rem;
+    padding-left:4rem;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+img{
+    width: 15rem;
+    border-radius: 50%;
+    border: 7px solid white;
+    background-color: white;
+    position:absolute;
+    top: 50px;
+    left: 45px;
+
+
+}
+#d2 h1,h4,p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btn{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+    border-radius: 0.2rem;
+    border:none;
+    height: 25px;
+}
+
+
